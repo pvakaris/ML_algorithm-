@@ -19,7 +19,6 @@ class Internal_Node:
 
 # Splits the data set according to the column number (attribute number)
 def split(dataset, labels, column):
-    print(column)
     data_subsets = []
     label_subsets = []
     counts = list(set([data[column] for data in dataset]))
